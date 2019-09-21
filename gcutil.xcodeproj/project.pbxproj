@@ -93,7 +93,7 @@
 		D1AA847E203EA44D005B720F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Vasily Suvorov";
 				TargetAttributes = {
 					D1AA8485203EA44D005B720F = {
@@ -108,6 +108,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = D1AA847D203EA44D005B720F;
 			productRefGroup = D1AA8487203EA44D005B720F /* Products */;
@@ -242,6 +243,7 @@
 		D1AA848E203EA44D005B720F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PN29ZGL6D7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -251,6 +253,7 @@
 		D1AA848F203EA44D005B720F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PN29ZGL6D7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
